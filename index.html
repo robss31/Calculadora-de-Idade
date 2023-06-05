@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,67 @@
     <link rel="stylesheet" href="./style.css">
     <title>Calculadora de Idade</title>
 </head>
+
 <body>
-    <div class="container">
-        <form action="">
-        <label for="">DAY</label>
-        <input class="input_dia"  type="text" name="dia"  id="dia" placeholder="DD">
-        <label for="">MONTH</label>
-        <input class="input_mes"  type="text" name="mes"  id="mes" placeholder="MM">
-        <label for="">YEAR</label>
-        <input class="input_ano"  type="text" name="ano"  id="ano" placeholder="YYYY">
-         </form>
+    <div class="div_ext1">
+        <div>
+            <img src="./img/bolinhas.jpg" class="bol" alt="">
+        </div>
+        <h1 class="h1">CALCULADORA DE IDADE</h1>
+        <div class="div_ext">
+
+            <section class="container">
+                <h1></h1>
+                <main class="divs">
+
+                    <div>
+                        <p>DAY</p>
+                        <input class="input_dia" type="text" name="dia" id="dia" placeholder="DD">
+                        <p ><span id ="day" ></span>  </p>
+                    </div>
+
+                    <div>
+                        <P>MONTH</P>
+                        <input class="input_mes" type="text" name="mes" id="mes" placeholder="MM">
+                        <p ><span id ="month" ></span>  </p>
+                    </div>
+
+                    <div>
+                        <P>YEAR</P>
+                        <input class="input_ano" type="text" name="ano" id="ano" placeholder="YYYY">
+                        <p ><span id ="year" ></span>  </p>
+
+
+                    </div>
+                    <div>
+                        <div>
+                            <p class="p1">--</p>
+                            <p class="p2">years </p>
+                        </div>
+
+                        <div>
+                            <p class="p3">--</p>
+                            <P class="p4">months</P>
+                        </div>
+
+                        <div>
+                            <p class="p5">--</p>
+                            <p class="p6">days</P>
+                        </div>
+                    </div>
+                    <form action="">
+                        <button type="submit" class="btn" id="send">send</button>
+                    </form>
+                </main>
+
+            </section>
+
+        </div>
+
 
     </div>
+
+    <script src="./script.js"></script>
 </body>
+
 </html>

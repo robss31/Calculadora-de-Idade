@@ -1,33 +1,176 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
 
-body{
+/*caixa principal*/
+body {
     display: flex;
-    background-color: aliceblue;
+    background-color: rgb(2, 2, 2);
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-   
-    
-
 }
 
-.container{
-    display: flex;
-    width: 800px;
-    height: 800px;
-    flex-direction: column;
+.h1 {
+    margin-top: -620px;
+    margin-left: -10px;
     align-items: center;
-    background-color: aquamarine;
-    
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
 }
 
-.input_day{
-    width: 200px;
+/*Caixa externa de todas*/
+.div_ext1 {
+    display: flex;
+    width: 1120px;
+    height: 700px;
+    background-color: rgb(235, 235, 258);
+    justify-content: center;
+    align-items: center;
+}
+
+.bol {
+    display: flex;
+    width: 95px;
+    height: 140px;
+    position: absolute;
+    right: 143px;
+    margin-top: -230px;
+}
+
+/*Caixa depois da branca*/
+.div_ext {
+    display: flex;
+    width: 1000px;
+    height: 550px;
+    background-color: rgb(240, 240, 258);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
+
+/*Caixa branca*/
+.container {
+    display: flex;
+    width: 580px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    justify-content: flex-start;
+    border-radius: 15px 15px 180px 15px;
+}
+
+/*Local onde digita a idade e os nomes*/
+.divs {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    margin-left: 40px;
+    column-gap: 15px;
+}
+
+/*Local onde digita a idade*/
+input {
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 10px;
+}
+
+/*years*/
+.p2 {
+    margin-left: -75px;
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 75px;
+    position: absolute;
+    margin-left: -250px;
+
+}
+
+/*primeiros traços*/
+.p1 {
+    font-size: 5rem;
+    margin-left: -315px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    margin-top: 75px;
+    color: rgb(130, 95, 190);
+}
+
+/*months*/
+.p4 {
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-left: -250px;
+    position: absolute;
+    margin-top: 150px;
+
+}
+
+/*segundo traços*/
+.p3 {
+    margin-top: 150px;
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-left: -315px;
+    position: absolute;
+    color: rgb(130, 95, 190);
+
+}
+
+/*DAY*/
+.p6 {
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-left: -250px;
+    position: absolute;
+    margin-top: 220px;
+
+}
+
+/*terceiro traços*/
+.p5 {
+    margin-top: 220px;
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-left: -315px;
+    position: absolute;
+    color: rgb(155, 101, 258);
+
+}
+
+.btn {
+    margin-left: 80px;
     height: 60px;
-    background-color: yellow;
+    width: 60px;
+    margin-top: 50px;
+    border-radius: 50%;
+    background-color: rgb(130, 95, 190);
+    color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255);
+    box-shadow: none;
+}
+
+button:hover {
+    background: rgba(130, 98, 278);
+    width: 80px;
+    height: 80px;
 }
